@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean class="com.spring.Employee" name="emp">
+		<property name="eId">
+		<value>507</value></property>
+		<property name="eName">
+		<value>Apeksha</value></property>
+		<property name="email">
+		<value>a@gmail.com</value></property>
+	</bean>
+    
+</beans>
